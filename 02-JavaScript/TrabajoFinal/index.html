@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+        <h1>CAJERO AUTOMÁTICO</h1>
+    </header>
+    <main>
+        <section class="elegir-cuentas">
+            <h2>Elija una cuenta</h2>
+            <div class="container-cuentas">
+                 <article class="cuenta cuenta1 selected">
+                    <img src="./img/Juan.png" alt="foto perfil 1">
+                    <p>Cuenta 1</p>
+                </article>
+                <article class="cuenta cuenta2">
+                    <img src="./img/Paty.png" alt="foto perfil 2">
+                    <p>Cuenta 2</p>
+                </article>
+                <article class="cuenta cuenta3">
+                    <img src="./img/Gloria.png" alt="foto perfil 3">
+                    <p>Cuenta 3</p>
+                </article>
+            </div>
+        </section>
+        <section class="login-container">
+            <div class="cuenta-top">
+                <!-- <img src="img/3.jpg" alt="foto perfil 3">
+                <p>CUENTA 3</p> -->
+            </div>
+            <div class="ctnr-password">
+                <p>CONTRASEÑA:</p>
+                <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+            </div>
+            <div class="join">
+                <button class="ingresar" onclick="validarLogin()">
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                    <p>Ingresar</p>
+                </button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
